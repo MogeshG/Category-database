@@ -1,0 +1,302 @@
+id,name,cid,category,brand,mrp,discount_price,stock
+222,The Lord of the Rings: The Two Towers,5,movies,New Line Cinema,17,14,80
+190,Murphy Bed,4,furniture,Costco,600,550,188
+255,Braveheart,5,movies,Paramount Pictures,24,20,124
+129,A Tale of Two Cities,3,books,Charles Dickens,16,13,90
+213,"The Good, the Bad and the Ugly",5,movies,United Artists,21,18,156
+184,Kids Table and Chairs Set,4,furniture,Pottery Barn Kids,80,70,37
+15,Khaki Shorts,1,clothing,Dockers,35,25,113
+180,Bean Bag Chair,4,furniture,Urban Outfitters,50,45,38
+221,The Dark Knight Rises,5,movies,Warner Bros.,18,15,175
+128,The Brothers Karamazov,3,books,Fyodor Dostoevsky,21,18,100
+109,The Great Expectations,3,books,Charles Dickens,16,13,116
+3,Summer Sundress,1,clothing,Zara,70,55,91
+301,Ironman 3,5,movies,Marvel,100,80,198
+292,The Pianist,5,movies,Focus Features,20,17,153
+9,Winter Parka,1,clothing,The North Face,200,150,114
+232,The Green Mile,5,movies,Warner Bros.,19,16,74
+118,Wuthering Heights,3,books,Emily Brontë,17,14,148
+191,Vanity Table with Mirror,4,furniture,Bed Bath & Beyond,150,130,145
+117,The Odyssey,3,books,Homer,14,11,163
+76,Home Security Camera,2,electronics,Arlo,120,100,166
+239,Whiplash,5,movies,Sony Pictures Classics,18,15,160
+53,Smart TV,2,electronics,LG,900,800,150
+171,Wall-Mounted Shelves,4,furniture,Pottery Barn,80,70,197
+203,The Dark Knight,5,movies,Warner Bros.,20,17,102
+210,The Matrix,5,movies,Warner Bros.,30,25,55
+46,Tailored Suit,1,clothing,Dior,500,400,141
+152,Queen Size Bed Frame,4,furniture,Ashley Furniture,600,550,152
+6,Running Shorts,1,clothing,Nike,30,25,15
+58,Gaming Console,2,electronics,Sony,400,350,95
+169,Outdoor Patio Set,4,furniture,HomeGoods,500,450,14
+63,Digital Thermometer,2,electronics,Braun,40,35,138
+247,The Silence of the Lambs,5,movies,Orion Pictures,21,18,34
+20,Raincoat,1,clothing,Columbia,120,100,120
+252,The Matrix Reloaded,5,movies,Warner Bros.,16,13,102
+295,Terminator 2: Judgment Day,5,movies,TriStar Pictures,17,14,153
+176,Dresser,4,furniture,Bob's Discount Furniture,200,180,125
+261,The Lion King,5,movies,Walt Disney Pictures,18,15,75
+51,Smartphone,2,electronics,Samsung,700,650,160
+56,Fitness Tracker,2,electronics,Fitbit,130,110,113
+143,The Divine Comedy,3,books,Dante Alighieri,20,17,169
+282,The Lord of the Rings,5,movies,New Line Cinema,21,18,136
+160,Bar Stools (Set of 2),4,furniture,Overstock,80,70,44
+225,The Usual Suspects,5,movies,Gramercy Pictures,14,11,137
+242,The Shawshank Redemption,5,movies,Warner Bros.,19,16,21
+114,The Grapes of Wrath,3,books,John Steinbeck,16,13,103
+162,Nightstand,4,furniture,Bed Bath & Beyond,60,50,89
+47,Baseball Cap,1,clothing,Fendi,35,25,175
+167,Bathroom Vanity,4,furniture,Lowe's,300,280,96
+86,Cordless Electric Shaver,2,electronics,Braun,80,70,100
+185,Bar Cart,4,furniture,CB2,90,80,192
+82,Fitness Tracker Ring,2,electronics,Motiv,150,130,83
+102,To Kill a Mockingbird,3,books,Harper Lee,18,15,13
+151,Modern Leather Sofa,4,furniture,IKEA,800,750,193
+256,The Godfather: Part II,5,movies,Paramount Pictures,18,15,71
+155,Coffee Table,4,furniture,West Elm,150,130,114
+189,End Table,4,furniture,Target,40,35,88
+258,The Usual Suspects,5,movies,Gramercy Pictures,17,14,166
+205,The Lord of the Rings: The Return of the King,5,movies,New Line Cinema,25,20,107
+192,Sofa Table,4,furniture,Ashley Furniture,80,70,176
+5,Leather Biker Jacket,1,clothing,Burberry,250,200,151
+150,The Mockingbird,3,books,Homer,14,11,112
+270,The Departed,5,movies,Warner Bros.,20,17,100
+163,Office Chair,4,furniture,Office Depot,120,100,162
+105,Lord of the Rings,3,books,J.R.R. Tolkien,25,20,10
+106,Harry Potter and the Sorcerer's Stone,3,books,J.K. Rowling,22,18,79
+17,Polo Shirt,1,clothing,Tommy Hilfiger,55,45,125
+98,Smart Jump Rope,2,electronics,Tangram Factory,35,30,47
+50,Printed Maxi Dress,1,clothing,Givenchy,150,120,87
+168,Console Table,4,furniture,World Market,90,80,134
+267,The Prestige,5,movies,Warner Bros.,18,15,34
+111,Brave New World,3,books,Aldous Huxley,19,16,31
+57,Bluetooth Speaker,2,electronics,JBL,80,70,32
+204,Pulp Fiction,5,movies,Miramax Films,16,13,77
+161,Accent Chair,4,furniture,Target,200,180,135
+74,Smart Thermostat,2,electronics,Nest,150,130,14
+245,Forrest Gump,5,movies,Paramount Pictures,22,18,34
+75,USB-C Hub,2,electronics,Anker,40,35,97
+229,Terminator 2: Judgment Day,5,movies,TriStar Pictures,23,19,105
+178,Dining Room Hutch,4,furniture,Ashley Furniture,280,250,159
+121,The Sun Also Rises,3,books,Ernest Hemingway,18,15,112
+173,Hallway Bench,4,furniture,Houzz,120,100,85
+265,The Green Mile,5,movies,Warner Bros.,20,17,70
+290,Seven Samurai,5,movies,Toho Company,16,13,178
+42,Printed T-shirt,1,clothing,Gucci,45,35,91
+108,The Hobbit,3,books,J.R.R. Tolkien,18,15,76
+200,Glider Recliner,4,furniture,Bob's Discount Furniture,250,220,121
+43,Wide-brim Hat,1,clothing,Chanel,30,25,159
+157,Wardrobe Closet,4,furniture,Home Depot,350,320,120
+231,Back to the Future,5,movies,Universal Pictures,14,11,185
+30,Denim Skirt,1,clothing,Dior,110,90,126
+156,Bookshelf,4,furniture,CB2,120,100,146
+67,External Hard Drive,2,electronics,Western Digital,120,100,99
+299,The Intouchables,5,movies,The Weinstein Company,16,13,46
+29,Sleeveless Blouse,1,clothing,Versace,80,65,82
+228,The Lion King,5,movies,Walt Disney Pictures,16,13,17
+8,Casual Skirt,1,clothing,H&M,40,35,189
+166,Chest of Drawers,4,furniture,Pier 1,180,160,13
+133,The Canterbury Tales,3,books,Geoffrey Chaucer,14,11,101
+107,Pride and Prejudice,3,books,Jane Austen,14,11,124
+251,The Shawshank Redemption,5,movies,Warner Bros.,21,18,86
+193,Gaming Desk,4,furniture,IKEA,120,100,149
+181,Outdoor Dining Set,4,furniture,PatioLiving,400,350,15
+291,The Usual Suspects,5,movies,Gramercy Pictures,19,16,49
+272,Whiplash,5,movies,Sony Pictures Classics,17,14,57
+202,The Godfather,5,movies,Paramount Pictures,18,15,72
+22,Sweatpants,1,clothing,Under Armour,40,30,36
+89,Fitness Recovery Massage Gun,2,electronics,Theragun,200,180,54
+300,The Prestige,5,movies,Warner Bros,18,15,149
+246,Inception,5,movies,Warner Bros.,17,14,57
+212,The Shawshank Redemption,5,movies,Warner Bros.,17,14,192
+36,High-waisted Pants,1,clothing,Givenchy,130,100,76
+141,The Wind in the Willows,3,books,Kenneth Grahame,13,10,122
+187,Bunk Bed,4,furniture,Rooms To Go,450,400,122
+140,The Outsiders,3,books,S.E. Hinton,14,11,139
+78,Wireless Gaming Mouse,2,electronics,Logitech,70,60,162
+32,Cargo Shorts,1,clothing,Coach,55,40,31
+31,Pullover Sweater,1,clothing,Fendi,120,95,56
+253,The Dark Knight Rises,5,movies,Warner Bros.,18,15,42
+79,Compact Photo Printer,2,electronics,Canon,100,90,166
+54,Digital Camera,2,electronics,Canon,500,450,186
+95,Fitness Resistance Bands Set,2,electronics,Fit Simplify,20,15,157
+243,Pulp Fiction,5,movies,Miramax Films,16,13,109
+230,Saving Private Ryan,5,movies,DreamWorks Pictures,20,17,73
+94,Portable Bluetooth Printer,2,electronics,Kodak,80,70,49
+59,Tablet,2,electronics,Microsoft,300,250,126
+226,The Pianist,5,movies,Focus Features,23,19,149
+284,The Shawshank Redemption,5,movies,Warner Bros.,19,16,190
+217,The Matrix Reloaded,5,movies,Warner Bros.,18,15,171
+297,Back to the Future,5,movies,Universal Pictures,15,12,141
+110,The Chronicles of Narnia,3,books,C.S. Lewis,30,25,66
+177,Patio Umbrella,4,furniture,Lowe's,50,45,97
+276,Pulp Fiction,5,movies,Miramax Films,17,14,39
+148,The Iliad,3,books,Homer,14,11,152
+62,Portable Projector,2,electronics,Epson,150,130,112
+70,Electric Toothbrush,2,electronics,Oral-B,70,60,60
+84,Foldable Bluetooth Keyboard,2,electronics,Jelly Comb,40,35,176
+37,Ruffled Blouse,1,clothing,Dolce & Gabbana,70,55,114
+91,Bluetooth Beanie,2,electronics,Rotibox,25,20,77
+254,The Two Towers,5,movies,New Line Cinema,23,19,44
+294,The Lion King,5,movies,Walt Disney Pictures,18,15,108
+1,Classic Polo Shirt,1,clothing,Lacoste,50,40,159
+172,Bedside Table,4,furniture,IKEA,40,35,68
+206,Schindler's List,5,movies,Universal Pictures,22,18,91
+92,Wireless Charging Stand,2,electronics,RAVPower,40,35,140
+123,The Count of Monte Cristo,3,books,Alexandre Dumas,19,16,68
+223,Seven Samurai,5,movies,Toho Company,15,12,167
+27,Striped Shirt,1,clothing,Saint Laurent,70,55,13
+170,Folding Chairs (Set of 4),4,furniture,Bed Bath & Beyond,70,60,134
+296,Saving Private Ryan,5,movies,DreamWorks Pictures,24,20,174
+196,Accent Cabinet,4,furniture,Wayfair,180,160,72
+34,Bucket Hat,1,clothing,Burberry,40,30,100
+39,Turtleneck Sweater,1,clothing,Yves Saint Laurent,80,60,66
+289,The Godfather: Part II,5,movies,Paramount Pictures,24,20,132
+134,Dracula,3,books,Bram Stoker,17,14,165
+80,Portable Solar Charger,2,electronics,Goal Zero,80,70,20
+99,Wireless Ergonomic Mouse,2,electronics,Logitech,50,45,198
+139,The Hound of the Baskervilles,3,books,Arthur Conan Doyle,15,12,101
+12,Cargo Pants,1,clothing,Columbia,80,60,80
+286,The Dark Knight Rises,5,movies,Warner Bros.,17,14,17
+235,The Sixth Sense,5,movies,Buena Vista Pictures,16,13,15
+38,Denim Overalls,1,clothing,Moschino,90,70,152
+275,The Shawshank Redemption,5,movies,Warner Bros.,23,19,84
+49,Suede Jacket,1,clothing,Burberry,300,240,73
+179,Cabinet Storage Unit,4,furniture,Costco,120,100,73
+158,Kitchen Island,4,furniture,Crate & Barrel,450,400,200
+264,Back to the Future,5,movies,Universal Pictures,15,12,189
+146,The Girl with the Dragon Tattoo,3,books,Stieg Larsson,18,15,69
+14,Track Jacket,1,clothing,Puma,65,50,43
+159,Computer Desk,4,furniture,Staples,100,90,173
+41,Puffer Jacket,1,clothing,Prada,350,280,43
+237,The Departed,5,movies,Warner Bros.,17,14,47
+211,The Silence of the Lambs,5,movies,Orion Pictures,19,16,89
+97,Compact Digital Alarm Clock,2,electronics,Sony,30,25,56
+224,Gladiator,5,movies,DreamWorks Pictures,26,22,102
+66,Drones,2,electronics,DJI,800,750,39
+215,Inception,5,movies,Warner Bros.,15,12,140
+194,Outdoor Hammock,4,furniture,Home Depot,70,60,150
+115,Jane Eyre,3,books,Charlotte Brontë,15,12,173
+136,The Secret Garden,3,books,Frances Hodgson Burnett,14,11,106
+195,L-Shaped Sectional Sofa,4,furniture,Living Spaces,800,750,41
+287,The Lord of the Ring,5,movies,New Line Cinema,21,18,198
+186,Fireplace TV Stand,4,furniture,Walmart,250,220,138
+85,Smart Home Lighting Kit,2,electronics,Philips Hue,120,100,92
+241,The Return of the King,5,movies,New Line Cinema,20,17,43
+153,Dining Table Set,4,furniture,Wayfair,400,350,111
+249,The Fellowship of the Ring,5,movies,New Line Cinema,19,16,137
+218,Braveheart,5,movies,Paramount Pictures,22,18,22
+83,Smart Glasses,2,electronics,North Focals,600,550,121
+268,The Sixth Sense,5,movies,Buena Vista Pictures,19,16,116
+263,Saving Private Ryan,5,movies,DreamWorks Pictures,24,20,57
+132,Frankenstein,3,books,Mary Shelley,18,15,188
+278,Forrest Gump,5,movies,Paramount Pictures,22,18,167
+48,Ruffle Skirt,1,clothing,Versace,45,35,176
+260,The Departed,5,movies,Warner Bros.,22,18,69
+24,Sun Hat,1,clothing,Gucci,60,45,71
+69,Fitness Smart Scale,2,electronics,Withings,60,50,91
+201,The Shawshank Redemption,5,movies,Warner Bros.,15,12,33
+214,The Lord of the Rings,5,movies,New Line Cinema,16,13,164
+273,The Godfather,5,movies,Paramount Pictures,18,15,56
+154,Recliner Chair,4,furniture,La-Z-Boy,300,280,195
+165,TV Stand,4,furniture,Walmart,100,90,69
+234,The Prestige,5,movies,Warner Bros.,18,15,163
+142,War and Peace,3,books,Leo Tolstoy,28,24,133
+219,The Godfather: Part II,5,movies,Paramount Pictures,24,20,29
+197,Buffet Table,4,furniture,Pier 1,200,180,181
+90,Mini Projector,2,electronics,ViewSonic,100,90,144
+11,Hooded Sweatshirt,1,clothing,Adidas,45,35,104
+236,Inglourious Basterds,5,movies,The Weinstein Company,19,16,12
+281,Fight Club,5,movies,20th Century Fox,19,16,141
+244,The Matrix,5,movies,Warner Bros.,25,20,67
+293,The Departed,5,movies,Warner Bros.,22,18,145
+26,Capri Pants,1,clothing,Chanel,90,70,183
+135,The Lord of the Flies,3,books,William Golding,16,13,32
+71,Air Purifier,2,electronics,Dyson,300,280,159
+279,Inception,5,movies,Warner Bros.,20,17,59
+64,Smart Home Hub,2,electronics,Google,120,100,176
+259,The Pianist,5,movies,Focus Features,14,11,38
+10,Chunky Knit Sweater,1,clothing,Gap,70,55,148
+175,Futon Sofa Bed,4,furniture,DHP,150,130,67
+126,The Scarlet Letter,3,books,Nathaniel Hawthorne,14,11,152
+44,Sweatshirt,1,clothing,Balenciaga,90,70,78
+269,Inglourious Basterds,5,movies,The Weinstein Company,15,12,125
+147,The Importance of Being Earnest,3,books,Oscar Wilde,12,10,101
+233,The Intouchables,5,movies,The Weinstein Company,15,12,200
+23,Business Suit,1,clothing,Brooks Brothers,350,280,41
+101,The Great Gatsby,3,books,F. Scott Fitzgerald,15,12,95
+16,Maxi Dress,1,clothing,Forever 21,50,40,49
+288,Braveheart,5,movies,Paramount Pictures,20,17,131
+280,The Silence of the Lambs,5,movies,Orion Pictures,16,13,72
+87,Portable Air Conditioner,2,electronics,Honeywell,300,280,51
+145,The Three Musketeers,3,books,Alexandre Dumas,17,14,36
+266,The Intouchables,5,movies,The Weinstein Company,16,13,200
+96,Wireless Car Charger Mount,2,electronics,iOttie,50,45,55
+124,The Picture of Dorian Gray,3,books,Oscar Wilde,15,12,160
+188,Dining Chair (Set of 2),4,furniture,West Elm,120,100,191
+33,Blazer,1,clothing,Armani,250,200,145
+77,Bluetooth Ear Muffs,2,electronics,3M,50,45,177
+13,Silk Blouse,1,clothing,Michael Kors,60,50,91
+216,Forrest Gump,5,movies,Paramount Pictures,14,11,196
+88,Wireless Presenter,2,electronics,Logitech,30,25,186
+60,Noise-Canceling Headphones,2,electronics,Bose,250,220,82
+174,Entryway Mirror,4,furniture,Wayfair,60,50,166
+220,The Dark Knight Rises,5,movies,Warner Bros.,18,15,100
+4,Cashmere Sweater,1,clothing,Ralph Lauren,120,90,119
+274,Return of the King,5,movies,New Line Cinema,24,20,24
+183,Standing Desk,4,furniture,UPLIFT Desk,350,320,161
+208,Fight Club,5,movies,20th Century Fox,21,18,19
+119,Crime and Punishment,3,books,Fyodor Dostoevsky,22,18,190
+127,Anna Karenina,3,books,Leo Tolstoy,23,19,45
+283,"The Good,the Bad",5,movies,United Artists,20,17,50
+248,Fight Club,5,movies,20th Century Fox,16,13,116
+113,The Shining,3,books,Stephen King,21,18,168
+122,Gone with the Wind,3,books,Margaret Mitchell,20,17,102
+271,The Dark Knight,5,movies,Warner Bros.,22,18,177
+72,Coffee Maker,2,electronics,Keurig,90,80,137
+28,Wide-leg Trousers,1,clothing,Balenciaga,150,120,102
+40,Cropped Jeans,1,clothing,Versace,80,60,36
+182,Rocking Chair,4,furniture,Crate & Barrel,120,100,149
+52,Laptop,2,electronics,Dell,1300,1200,121
+277,The Matrix,5,movies,Warner Bros.,18,15,117
+257,Seven Samurai,5,movies,Toho Company,20,17,49
+65,Wireless Charging Pad,2,electronics,Belkin,50,45,200
+21,Denim Jacket,1,clothing,Guess,80,70,157
+240,The Godfather,5,movies,Paramount Pictures,22,18,191
+120,One Hundred Years of Solitude,3,books,Gabriel García Márquez,24,20,92
+68,Wireless Router,2,electronics,Linksys,80,70,160
+73,Robotic Vacuum Cleaner,2,electronics,iRobot,250,220,61
+25,Knit Cardigan,1,clothing,Prada,100,80,177
+138,Slaughterhouse-Five,3,books,Kurt Vonnegut,19,16,95
+61,Smartwatch,2,electronics,Garmin,180,160,153
+103,1984,3,books,George Orwell,20,17,71
+116,Moby-Dick,3,books,Herman Melville,20,17,11
+19,Floral Skirt,1,clothing,Hollister,30,25,111
+55,Wireless Earbuds,2,electronics,Apple,200,180,104
+207,Inception,5,movies,Warner Bros.,17,14,190
+298,The Green Mile,5,movies,Warner Bros.,20,17,153
+144,The Jungle Book,3,books,Rudyard Kipling,14,11,17
+164,Lounge Chair,4,furniture,AllModern,250,220,197
+18,Chino Pants,1,clothing,Banana Republic,75,60,10
+35,V-neck Dress,1,clothing,Valentino,100,80,58
+93,Smart Water Bottle,2,electronics,HidrateSpark,60,50,19
+227,The Departed,5,movies,Warner Bros.,21,18,154
+130,The Art of War,3,books,Sun Tzu,12,10,50
+2,Skinny Jeans,1,clothing,Levi's,60,45,142
+81,Car Dash Cam,2,electronics,Nextbase,60,50,194
+45,Paperbag Waist Shorts,1,clothing,Louis Vuitton,60,45,116
+100,USB Desk Fan,2,electronics,OPOLAR,20,15,155
+125,Les Misérables,3,books,Victor Hugo,26,22,56
+149,The Punishment,3,books,Oscar Wilde,12,10,142
+131,The Alchemist,3,books,Paulo Coelho,15,12,90
+104,The Catcher in the Rye,3,books,J.D. Salinger,16,13,178
+238,The Dark Knight,5,movies,Warner Bros.,15,12,44
+250,"The Good, the Bad and the Ugly",5,movies,United Artists,20,17,54
+137,The Little Prince,3,books,Antoine de Saint-Exupéry,13,10,153
+285,The Matrix Reloaded,5,movies,Warner Bros.,18,15,162
+112,The Hitchhiker's Guide to the Galaxy,3,books,Douglas Adams,17,14,33
+209,Forrest Gump,5,movies,Paramount Pictures,16,13,195
+198,Daybed with Trundle,4,furniture,Raymour & Flanigan,350,320,153
+199,Crib and Changing Table Set,4,furniture,Pottery Barn Kids,400,350,63
+7,Dress Shirt,1,clothing,Calvin Klein,80,60,178
+262,Terminator 2: Judgment Day,5,movies,TriStar Pictures,19,16,44
