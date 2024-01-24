@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Search results</title>
+</head>
+<body>
+  <h1 id="title" class='text-center' style="color: rgb(10, 121, 56);">Search results</h1>
+    <div class="container">
+      <div style="display:flex;">
+        <a style = "text-decoration: none; color: inherit;cursor: pointer;" href="home"><button id="allCategoriesLink"class="align-right-button btn btn-success" >HOME</button></a>
+          <input type="text" id="searchInput" style="margin-left: 63%;" placeholder="Search by name">
+          <button id="searchButton" class="btn btn-success" style="margin-left: 1%;" onclick="search()">Search</button>
+        </div>
+        <br>
+    
+    <br>
+        <table class='table table-bordered'>
+            <thead >
+                <tr class="table-dark text-center">
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>CId</th>
+                    <th>Category</th>
+                    <th>Brand</th>
+                    <th>Mrp</th>
+                    <th>Discount price</th>
+                    <th>Stock</th>
+                  </tr>
+            </thead>
+            <tbody id="tbody" class="text-center">
+                <tr></tr>
+            </tbody>
+        </table>
+    </div>
+<script>
+    let urlParams = new URLSearchParams(window.location.search);
+    // let url=window.location.pathname;
+    let query = urlParams.get('query');
+    document.getElementById('title').innerHTML+=` for "${query}"`;
+    console.log(query)
+    
+    fetch(`/results/data?query=${query}`)
+      .then(response => response.json())
+      .then(filteredProducts => displayResults(filteredProducts))
+      .catch(error => console.error('Error fetching data:', error));
+    function search() {
+    const searchInput = document.getElementById('searchInput').value;
+    window.location.href=`/results?query=${searchInput}`;
+  }
+
+  function displayResults(results) {
+    const resultsContainer = document.getElementById('tbody');
+    resultsContainer.innerHTML = '';
+    tableData="";
+
+    if (results.length > 0) {
+      results.map((values) => {
+      tableData += `<tr><td>${values.id}</td>
+          <td>${values.name}</td>
+          <td>${values.cid}</td>
+          <td>${values.category}</td>
+          <td>${values.brand}</td>
+          <td>${values.mrp}</td>
+          <td>${values.discount_price}</td>
+          <td>${values.stock}</td></tr>`;
+    });
+    resultsContainer.innerHTML+= tableData;
+    } else {
+      resultsContainer.innerHTML = `<tr><td colspan="100">No results found</td></tr>`;
+      resultsContainer.classList.add("callout");
+    }
+  }
+</script>
+</body>
+
+</html>
