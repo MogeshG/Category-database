@@ -39,6 +39,7 @@
     let urlParams = new URLSearchParams(window.location.search);
     // let url=window.location.pathname;
     let query = urlParams.get('query');
+    document.getElementById("searchInput").value=query;
     document.getElementById('title').innerHTML+=` for "${query}"`;
     console.log(query)
     
@@ -73,6 +74,15 @@
       resultsContainer.classList.add("callout");
     }
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("searchInput").addEventListener("keydown",()=>{
+      if(event.key==="Enter"){
+        search();
+      }
+    });
+  });
+
 </script>
 </body>
 

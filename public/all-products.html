@@ -85,8 +85,6 @@
       let tableData = "";
       let button = "";
       const STYLE="text-decoration: none; cursor: pointer";
-      // console.log(data.results)
-      // console.log(data.results.length)
       
       //exceed page limit
       if(pages>data.len)
@@ -159,7 +157,13 @@
       var query = document.getElementById('searchInput').value.toLowerCase();
       window.location.href=`/results?query=${query}`;
     }
-    document.getElementById().domconte
+    document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("searchInput").addEventListener("keydown",()=>{
+      if(event.key==="Enter"){
+        search();
+      }
+    });
+  });
   </script>
 </body>
 

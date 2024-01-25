@@ -114,9 +114,49 @@ app.get('/results', (req, res) => {
 
 app.get('/results/data', async (req, res) => {
   var query = req.query.query;
-  var [data,price] = query.split("under");
-  
-  var value=parseFloat(price);
+  var up=["under","below","less","within","down","lesser"];
+  var down=["over","above","greater","up",];
+  var extra=[",",".","/",":","[","]","@","rs","Rs","amt","Amt","+","-","than"];
+
+  var string=query.split(" ")
+  var cur,sort;
+
+  extra.forEach(val=>{
+    if(query.includes(val)){
+      query=query.replace(val,"");
+    }
+  })
+
+  string.forEach(val => {
+    if(up.includes(val)){
+      cur=val;
+      sort="lte";
+      console.log(sort);
+      return;
+    }
+    else if(down.includes(val)){
+      cur=val;
+      sort="gte";
+      console.log(sort);
+      return;
+    }
+    // else{
+    //   sort="lte";
+    //   return;
+    // }
+  });
+
+  console.log(query);
+  console.log(sort)
+  if(cur){
+    var [data,price] = query.split(cur);
+    var value=parseFloat(price);
+  }
+  else{
+    var data=query;
+    var value=10000000;
+    sort="lte";
+  }
   try {
     let body  = await esClient.search({
         index: "product_table",
@@ -132,7 +172,7 @@ app.get('/results/data', async (req, res) => {
                 {
                   range: {
                     discount_price: {
-                      lte: value
+                      [sort]: value
                     }
                   }
                 }

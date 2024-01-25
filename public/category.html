@@ -52,6 +52,13 @@
         var query = document.getElementById('searchInput').value;
         window.location.href=`/results?query=${query}`;
       }
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById("searchInput").addEventListener("keydown",()=>{
+        if(event.key==="Enter"){
+         search();
+        }
+        });
+    });
 </script>
 </body>
 </html>
