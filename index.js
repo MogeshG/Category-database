@@ -116,44 +116,39 @@ app.get('/results/data', async (req, res) => {
   var [data,price] = query.split("under");
   
   var value=parseFloat(price);
-  console.log(value);
-  // data=data.toLowerCase().split(' ').map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-  // console.log(data)
   try {
     let body  = await esClient.search({
-      index: "product_table",
-      body: {
-        query: {
-          bool: {
-            must: [
-              {
-                exists: {
-                  field: "discount_price",
-                }
-              },
-              {
-                range: {
-                  discount_price: {
-                    lte: value,
+        index: "product_table",
+        body: {
+          query: {
+            bool: {
+              must: [
+                {
+                  exists: {
+                    field: "discount_price"
+                  }
+                },
+                {
+                  range: {
+                    discount_price: {
+                      lte: value
+                    }
                   }
                 }
-              },
-              {
-                bool: {
-                  should: [
-                    {
-                      multi_match: {
-                          query:data,
-                          fields:['brand','name','category'],
-                          // fuzziness:1,
-                      }
-                    }
-                  ]
+              ],
+              should: [
+                {
+                  multi_match: {
+                    query: data,
+                    fields: ["brand", "name", "category"],
+                    // fuzziness: "1"
+                  }
                 }
-              }
-            ]
-          }
-        },
+              ],
+              minimum_should_match: 1
+            }
+          },
+        // }      
         _source:['id','name','cid','category','brand','mrp','discount_price','stock'],
       }
     });
@@ -173,7 +168,7 @@ app.get('/results/data', async (req, res) => {
     }
 });
 
-app.listen(process.env.DB_PORT, () => {
-  console.log(`Listening to http://${process.env.DB_HOST}:${process.env.DB_PORT}/home`);
+app.listen(3001, () => {
+  console.log(`Listening to http://${process.env.DB_HOST}:3001/home`);
 });
   
