@@ -2,9 +2,10 @@ const express = require('express');
 const path = require('path');
 const mysql = require('mysql2');
 const {Client}= require('@elastic/elasticsearch');
-const { match } = require('assert');
+// const { match } = require('assert');
 
 require('dotenv').config();
+
 
 const app = express();
 const esClient = new Client({ node: `http://${process.env.DB_HOST}:9200` });
@@ -168,7 +169,7 @@ app.get('/results/data', async (req, res) => {
     }
 });
 
-app.listen(3001, () => {
-  console.log(`Listening to http://${process.env.DB_HOST}:3001/home`);
+app.listen(8080, () => {
+  console.log(`Listening to http://${process.env.DB_HOST}:8080/home`);
 });
   
