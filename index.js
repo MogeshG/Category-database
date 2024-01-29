@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const mysql = require('mysql2');
 const {Client}= require('@elastic/elasticsearch');
-// const { match } = require('assert');
 
 require('dotenv').config();
 
@@ -52,10 +51,8 @@ app.get('/category/type', async (req, res) => {
   const limit = 10;
   var startIndex = (page - 1) * limit;
   var endIndex = page * limit;  
-  // console.log(startIndex,endIndex)
   db.query('SELECT * FROM products WHERE cid= ? ORDER BY id',[categoryId], (err, data) => {
     var results = {};
-    // console.log(data.length)
     if(endIndex>=data.length){
       endIndex=data.length;
     } 
@@ -67,7 +64,7 @@ app.get('/category/type', async (req, res) => {
     }
     results.len=Math.ceil(data.length/10);
     results.results = data.slice(startIndex, endIndex);
-    // console.log(results.results)
+  
     res.paginatedResults = results;
     res.json(res.paginatedResults);
   });
@@ -78,9 +75,7 @@ app.get('/all-products', (req, res) => {
 });
 app.get('/all-products/data', async (req, res) => {
   try {
-    const page = parseInt(req.query.page, 10) || 1;
-    // const limit = 10;
-    var startIndex = (page - 1)*10;
+    const page = parseInt(req.query.page, 10) || 1;    var startIndex = (page - 1)*10;
     var endIndex = page*10;  
     
   db.query('SELECT * FROM products',(err,data) => {
@@ -114,9 +109,10 @@ app.get('/results', (req, res) => {
 
 app.get('/results/data', async (req, res) => {
   var query = req.query.query;
-  var up=["under","below","less","within","down","lesser"];
-  var down=["over","above","greater","up",];
-  var extra=[",",".","/",":","[","]","@","rs","Rs","amt","Amt","+","-","than"];
+  var down=["under","below","less","within","down","lesser","in","@"];
+  var eq=["=","@"]
+  var up=["over","above","greater","up",];
+  var extra=[",",".","/",":","[","]","rs","Rs","amt","Amt","+","-","than"];
 
   var string=query.split(" ")
   var cur,sort;
@@ -128,26 +124,19 @@ app.get('/results/data', async (req, res) => {
   })
 
   string.forEach(val => {
-    if(up.includes(val)){
+    if(down.includes(val)){
       cur=val;
       sort="lte";
-      console.log(sort);
       return;
     }
-    else if(down.includes(val)){
+    else if(up.includes(val)){
       cur=val;
       sort="gte";
-      console.log(sort);
       return;
     }
-    // else{
-    //   sort="lte";
-    //   return;
-    // }
+    
   });
 
-  console.log(query);
-  console.log(sort)
   if(cur){
     var [data,price] = query.split(cur);
     var value=parseFloat(price);
@@ -189,15 +178,12 @@ app.get('/results/data', async (req, res) => {
               minimum_should_match: 1
             }
           },
-        // }      
         _source:['id','name','cid','category','brand','mrp','discount_price','stock'],
       }
     });
-    // console.log(body)
     if (body && body.hits) {
       let data=body.hits.hits;
       const results = data.map(hit => hit._source);
-      // console.log(results);
       res.json(results);
     } else {
       console.error('Invalid Elasticsearch response:', body);
